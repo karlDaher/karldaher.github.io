@@ -109,7 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "https://twitter.com/karlDaher"
+  twitter          : "karlDaher"
   vine             :
   weibo            :
   xing             :
@@ -181,7 +181,7 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  supervision:
     output: true
     permalink: /:collection/:path/
   talks:
@@ -227,10 +227,10 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+  # supervision
   - scope:
       path: ""
-      type: portfolio
+      type: supervision
     values:
       layout: single
       author_profile: true
