@@ -6,28 +6,7 @@
     "category": "Bachelor Thesis",
     "date": "2022-07-15",
     "description": [
-      "Trois objectifs ont été réalisés lors du travail de Bachelor. Le premier est l'ajout d'un système",
-      "d'authentification des utilisateurs. Le second est l'ajout de la fonctionnalité de sélectionner un de",
-      "déplacer un objet dans un modèle 3D. Et le dernier est l'ajout de la sauvegarde des changements",
-      "effectués dans le modèles 3D.",
-      "Lorsqu'un architecte travaille sur un projet, il lui est important de pouvoir le présenter à ses partenaires",
-      "et à ses clients de la manière la plus immersive. La plateforme web pour les architectes a donc comme",
-      "objectif de proposer un outil de visualisation de modèles 3D.",
-      "Ce travail de Bachelor a pour but de continuer l'implémentation de la plateforme créée lors d'un projet",
-      "de semestre. Trois objectifs principaux sont définis. Le premier consiste à intégrer un mécanisme",
-      "d'authentification des utilisateurssur la plateforme et ainsi les séparer dans différents rôles. Le second",
-      "est l'ajout de la sélection et le déplacement d'objets dans le modèle 3D. Le dernier est l'ajout d'un",
-      "système de sauvegarde des modifications effectuées sur un modèle 3D.",
-      "Le document est divisé en sept parties majeures. La première est la définition du contexte du projet. La deuxième documente la phase d'analyse effectuée lors du projet. La troisième documente",
-      "tous les aspects de conception du projet. Le quatrième documente les aspects importants de",
-      "l'implémentation. La cinquième liste les tests effectués sur le projet ainsi que leur résultat. La",
-      "sixième spécifie les problèmes majeurs rencontrés lors du développement de l'application. Enfin,",
-      "la septième partie est la conclusion du travail de Bachelor.",
-      "Actuellement, les architectes créent leurs modèles 3D avec des logiciels spécialisés. Cependant, ils",
-      "n'ont pas d'outils qui permettent de les visualiser depuis le web.",
-      "La plateforme web pour les architectes, basée sur la bibliothèque Three.js, leur permettrait donc",
-      "d'importer leurs modèles 3D et de les modifier. Les clients et les partenaires pourraient, ensuite, les",
-      "visiter depuis un navigateur web. Les visites virtuelles permettent une meilleure immersion."
+      "Cette plateforme web permet aux architectes de présenter leurs modèles 3D dans un navigateur. Le travail de Bachelor prolonge le prototype Three.js avec l’authentification et les rôles utilisateurs, la sélection et le déplacement d’objets, ainsi que la sauvegarde des modifications. L’objectif est de faciliter les visites immersives et le partage avec les clients et partenaires."
     ],
     "students": [
       "Guillaume Etienne"
@@ -47,20 +26,7 @@
     "category": "Internship and semester projects",
     "date": "2022-05-13",
     "description": [
-      "Les architectes ont besoin de pouvoir visualiser et projeter leurs clients au sein de leurs projets. Ceci",
-      "peut se faire en modélisant le projet en 3D, ce qui permet, grâce à la VR1 / AR2 ou à un autre",
-      "programme, de le visualiser directement depuis l’intérieur.",
-      "Le problème vient du fait qu’il n’y a, actuellement, aucune solution simple à mettre en place pour ces",
-      "architectes. En effet, les logiciels qui permettent de réaliser ce genre de visualisation sont souvent",
-      "payants et strictes sur la technologie à utiliser pour modéliser les bâtiments. Il y a donc un gros effort",
-      "(installation de logiciel, partage de matériel, ...) à faire de la part des architectes et des clients afin de",
-      "rendre possible ces visites virtuelles.",
-      "Ce projet a donc pour but de résoudre ce problème en mettant à disposition une solution simple et",
-      "pratique pour mettre en place des visites virtuelles. Pour ce faire, et afin que cela soit facile",
-      "d’utilisation, le produit sera utilisable directement depuis un navigateur Web grâce à la technologie",
-      "Three.js1 ou une autre qui convient mieux à nos besoins. Dans l’idéal, le produit final permettrait",
-      "aussi de modifier les modèles 3D2 directement depuis l’interface, mais ce n’est pas l’objectif principal",
-      "du projet."
+      "Ce projet propose une solution de visites virtuelles de projets architecturaux accessible directement depuis un navigateur. Il explore Three.js et les technologies adaptées à la visualisation de bâtiments en 3D, sans installation spécialisée pour les clients. La modification des modèles dans l’interface constitue une fonctionnalité envisagée en complément de la visite immersive."
     ],
     "students": [
       "Gaël Koch"
@@ -79,24 +45,7 @@
     "category": "Bachelor Thesis",
     "date": "2021-07-16",
     "description": [
-      "De nos jours, les artistes ont du mal à se faire connaitre, même au sein de leur communauté.",
-      "En parallèle, les jeux prennent de plus en plus de place dans la vie de tous. Enfants et adultes",
-      "utilisent de plus en plus d’applications ludiques. Dans le but d’associer l’art et la technologie,",
-      "ce projet va permettre de concevoir des jeux afin de mettre en avant les travaux d’un artiste",
-      "local.",
-      "Un jeu de puzzle en 3D a déjà été développé au cours du précédent semestre. Le but de ce",
-      "projet sera de créer un monde virtuel dans lequel il sera possible de découvrir des œuvres",
-      "d’artistes sous formes de mini-jeux et énigmes à résoudre. (Pris de la description du projet 4)",
-      "Ce projet est la suite de deux autres projets réalisés par le même élève. Le premier projet a",
-      "été réalisé lors du projet de semestre 5 et se nommait Générateur de Puzzle 3D. Il consistait",
-      "à créer un jeu de puzzle en 3D sous Unity. Le modèle à assembler était représenté par une",
-      "œuvre d’art.",
-      "Le deuxième projet a été réalisé lors du projet de semestre 6 et se nommait Puzzle 3D en",
-      "Réalité Augmentée. Le premier objectif consistait à résoudre les problèmes de rotation des",
-      "pièces qui avaient été détectés lors des tests utilisateurs du projet de semestre 5. Le deuxième",
-      "objectif consistait à ajouter la fonctionnalité de la réalité augmentée. Avec cette dernière",
-      "fonctionnalité, le joueur avait la possibilité de jouer au jeu du puzzle avec ou sans la réalité",
-      "augmentée et de transiter de l’un à l’autre pendant une partie."
+      "Ce travail associe art et réalité virtuelle à travers un monde composé de mini-jeux et d’énigmes permettant de découvrir des œuvres. Il prolonge deux projets de puzzle 3D réalisés sous Unity, dont une version en réalité augmentée. L’objectif est de valoriser le travail d’un artiste local par une expérience ludique et immersive."
     ],
     "students": [
       "Jonathan Dias Vicente"
@@ -117,7 +66,7 @@
     "category": "Internship and semester projects",
     "date": "2021-06-04",
     "description": [
-      "The project is part of a physiotherapy rehabilitation project using an exoskeleton for patients with walking difficulties (figure1.1(b)). The machine support patients during their physiotherapy sessions thanks to motors helping them to move. At his final state, we want the exoskeleton to be secure enough so that the physiotherapist could leave the patient alone or even autonomous with his exercises. To do so the goal of this project is to imagine a safe system to stop the exoskeleton at any time. Currently, an emergency button is placed in the back of the device. However, the patient needs someone else to push it in that case. If our goal is to leave the patient alone without any trouble, the button has to be more accessible. Moreover, because of crutches, the patient is not able to use his arms during the exercises. The designed system has to be touchless, so the patient can send commands while doing the exercises. Moreover, a more accessible button is currently under development. Our goal is to improve the reliability of the system by providing a second way to shut down the exoskeleton. The first system imagined uses voice detection, especially the word ”STOP”, to stop the machine during exercising (figure 1.1(a)). The project consists of developing a mobile application to interact with the exoskeleton. The received command (e.g. by voice) is sent to a Raspberry Pi which turns off the machine then. In this solution, we imagine the smartphone attached to the neck of the patient. Moreover, the application is developed for iOS devices only, making maintenance easier. Finally, because the developed solution targets security and robustness over optimisation and a session only last around 30 minutes, battery usage is not a priority."
+      "This project explores a hands-free emergency stop for an exoskeleton used in walking rehabilitation. An iOS application detects a spoken command such as “STOP” and sends it to a Raspberry Pi to stop the machine. The proposed system complements the existing emergency button, prioritizing reliability and allowing patients using crutches to issue a command without their hands."
     ],
     "students": [
       "Laurent Chassot"
@@ -137,7 +86,7 @@
     "category": "Internship and semester projects",
     "date": "2021-06-01",
     "description": [
-      "Le but de ce projet d’approfondissement est de réaliser différents prototypes d’une application liant réalité virtuelle et réalité augmentée dans une vision de travail collaboratif à distance. Ce travail nécessitera donc d’effectuer des recherches sur les applications déjà existantes dans un même domaine, puis de définir et d’intégrer les différentes fonctionnalités et technologies mixtes. Suite à ces recherches, un prototype sera implémenté et testé avec des utilisateurs. La première partie du travail concerne l’analyse autour des différentes technologies qui seront réunies dans l’application. Il est important de pouvoir définir les contraintes et challenges du projet. De plus, il existe déjà un certain nombre d’applications utilisant la réalité virtuelle, augmentée ou mixte. Leur observation permettra de découvrir ce qui est actuellement disponible sur le marché afin de proposer ensuite une application innovante."
+      "Ce projet explore le travail collaboratif à distance en combinant réalité virtuelle et réalité augmentée. Une analyse des applications existantes et des contraintes techniques guide la définition des fonctionnalités et des technologies mixtes à réunir. Le travail prévoit ensuite l’implémentation de prototypes et leur évaluation auprès d’utilisateurs afin d’étudier cette forme de collaboration immersive."
     ],
     "students": [
       "Kevin Pantillon"
@@ -157,7 +106,7 @@
     "category": "Master thesis",
     "date": "2021-05-17",
     "description": [
-      "Our empathic system is a system that provides multiple scientifically proven techniques for stress reducing and productivity increase for users in occupational health sector. The main objective of this system is to allow the users to use the provided techniques in multiple situations (i.e. car, office, remote work) in a way that almost all users can benefit from them without being limited to have some extra stuff in order to practice them. Our proposed system is divided into two main components: 1. The back-end: This component is responsible for handling data, processing it and sending it to the front-end component to be properly displayed. 2. The front-end: This component’s main goal is to provide a user-friendly web interface from which he/she can receive all proposed techniques By implementing the components mentioned above, we were able to successfully hand the user a set which consists initially of four types of techniques: relaxing music that offers different genres (classical, pop, and jazz), stretching exercises which includes some that can be practiced using the office’s chair, relaxing breathing exercises that can be also practiced almost anywhere in a well guided steps list, body posture adjustment for body comfort while sitting for a long period on the chair each day. Furthermore, this platform offers for therapists to add recent techniques that are also scientifically proven in order to enhance productivity of the users and their lifestyle."
+      "This project develops an empathic web platform for stress reduction and productivity support in occupational health. A back end manages data while a user-friendly interface offers relaxing music, stretching, breathing exercises, and posture guidance. The techniques are designed for everyday settings such as offices and remote work, with the possibility for therapists to add further evidence-based activities."
     ],
     "students": [
       "Hassan Balhas"
@@ -176,7 +125,7 @@
     "category": "Master thesis",
     "date": "2021-05-12",
     "description": [
-      "Au fil des années, l’enseignement en ligne a progressivement pris plus d’ampleur dans les pratiques de tous les jours. C’est surtout cette dernière année qui a montré le progrès qu’il reste à faire dans ce secteur. Avec la crise sanitaire et les confinements qui s’en sont suivis, les cours en lignes sont devenus du jour au lendemain une nécessité et une normale. Malgré les améliorations faites suite à ces nouvelles circonstances, les cours en ligne, qu’ils soient en temps réel ou préenregistrés, manquent terriblement d’interactions. Etant dans le confort de chez soi avec généralement aucune supervision, il est facile pour l’étudiant de succomber aux distractions de son milieu ou de prêter une attention passive à la séance de cours qui se déroule sur son écran. Ceci mène à un apprentissage passif du côté de l’étudiant qui n’est plus tout à fait capable de retenir de l’information. Ainsi, il est nécessaire voire primordial de rendre les cours en ligne plus interactifs pour améliorer l’expérience des étudiants d’une part et professeurs d’une autre. Suite à une recherche extensive, il s’est avéré que l’intégration de questions à ces séances de cours est le moyen le plus efficace pour dynamiser l’étudiant et l’inciter à capter de l’information. De plus, cet outil permettrait au professeur d’avoir une idée générale de la performance des élèves et de leur compréhension des notions énoncées. Ayant vécu l’enseignement en ligne sur la plateforme Microsoft Teams, l’idée est de créer une application pour MS Teams qui vise à intégrer des questions exportées de Moodle aux cours en ligne. Il existe déjà plusieurs applications pour la création de questions sur MS Teams mais toutes offrent la même gamme de questions « classiques » : QCM, vrai/faux etc. Aucune ne permet d’ajouter des questions prises de Moodle en format Moodle XML. Vu que les professeurs ont des banques de questions vastes et que recréer sur une application pour MS Teams des questions déjà existantes sur Moodle serait une perte de temps, il est préférable d’avoir la possibilité d’utiliser les questions créées sur Moodle directement sur Teams. Un avantage ou plutôt l’atout de cette approche est la grande variété des types de questions sur Moodle qui vont au-delà des QCM et vrai/faux. Ceci offrirait à la plateforme envisagée une richesse quant aux types de questions possibles par rapport aux autres applications pour MS Teams. Pour mener à bien ce projet, des composants de MS Teams ont été utilisés notamment un Teams bot et un onglet (tab) Teams. Le professeur pourra importer ses questions en format Moodle XML sur l’onglet Teams pour une date déterminée. Ensuite, le professeur pourra organiser les questions importées (changer l’ordre, supprimer ou ajourner). Une fois les changements confirmés, le bot aura accès aux questions du professeur et les posera dans l’ordre convenu une fois qu’il est invoqué par le professeur dans le chat de la réunion Teams. Chaque question apparaît dans une fenêtre pop-up. Le bot enregistre les réponses des élèves, les corrige et les ajoute à un fichier de notes qui pourra être téléchargé. La solution envisagée assure une continuité de développement dans le temps. Des fonctionnalités comme le fait d’intégrer la plateforme avec Moodle pour pourvoir en importer des questions directement, d’exporter les notes directement vers Moodle ou d’ajouter le mécanisme de création de questions sur la plateforme sont parmi les idées de développements futurs possibles pour ce projet. Il s’agit d’un projet d’actualité qui va sûrement avoir un impact sur une activité qui est maintenant pratiquée quotidiennement. Cette solution offre d’une part, une facilité aux professeurs à travers la possibilité d’importer des questions Moodle et d’autre part, un cours un peu plus interactif aux étudiants pour assurer l’amélioration de leur expérience d’apprentissage en ligne."
+      "Ce projet vise à rendre les cours en ligne plus interactifs grâce à une application pour Microsoft Teams. La solution prévoit d’intégrer des questions provenant de banques Moodle au format XML, plutôt que de demander aux enseignants de les recréer. L’objectif est de soutenir la participation des étudiants et d’aider les enseignants à apprécier leur compréhension pendant les séances."
     ],
     "students": [
       "Marianne Jbeyli",
@@ -197,7 +146,7 @@
     "category": "Master thesis",
     "date": "2021-02-05",
     "description": [
-      "When building chatbots with NLU (Natural Language Understanding), we need a lot of training samples to train intent detection system. One way is to collect data from users by extracting conversations or using services like Amazon Mechanical Turk, but this is tedious work or costly processes (in addition to the fact that writing sentences by hand is not a really fun job). The other way is to develop a language model that is capable of paraphrasing sentences. A paraphrase is a restatement of a text using other words. In this way, it will be possible to create a fraction of the sentences manually and then generate tens of new sentences based on them by paraphrasing them."
+      "Training intent-detection systems for chatbots requires many example sentences, which can be expensive or tedious to collect. This project explores a language model capable of paraphrasing a small set of manually written examples. By generating alternative formulations of the same meaning, the approach aims to expand training data and reduce the effort required to prepare natural language understanding systems."
     ],
     "students": [
       "Samuel Torche"
@@ -218,7 +167,7 @@
     "category": "Master thesis",
     "date": "2021-02-04",
     "description": [
-      "All over the world, the consumption of food packaging has taken on disproportionate proportions. Although an eco-responsible trend emerged several years ago, many products found in supermarkets are still protected by single-use packaging and sometimes difficult to recycle. There is no need to explain the disastrous consequences this phenomenon can have on the environment. But the problem of packaging must also be analysed from a health point of view, since some packagings can contaminate the food they are trying to protect. In Switzerland, the Federal Foot Safety and Veterinary Office (FSVO) is responsible for measuring and evaluating packaging consumption. The federal department currently uses forms for this purpose, but this task is tedious. The idea of this project was therefore to see whether a chatbot could prove to be a viable alternative to this process. After analysing the literature on chatbots and food packaging, a web application was developed. On it, the user can exchange with a chatbot who will interrogate him about his purchases by asking him to describe his shopping list, product by product. To do this, the user must enter the name of the product, the quantity purchased, the packagings used, the category of the product and the ecological rating he wishes to give it. This process can be done either textually or by scanning the product’s barcode. After each product description, statistics on consumption habits are updated, thus providing an overview and making the user aware of the impact of the packagings. The tests and evaluations carried out showed that the chatbot fulfilled its role well as it obtained a Chatbot Usability Questionnaire (CUQ) score of more than 70%. However, there are still points that should be improved before considering using it in a real context. Indeed, the chatbot still has difficulty understanding descriptions of certain exotic foods or working with units of measurement such as grams or liters."
+      "This project investigates a chatbot as an alternative to questionnaires for collecting food-packaging consumption data. A web application lets users describe purchases or scan barcodes, then view statistics about their habits. Evaluation produced a Chatbot Usability Questionnaire score above 70%, while identifying limitations in understanding some foods and units of measurement that require improvement before real-world use."
     ],
     "students": [
       "Charles Perriard"
@@ -238,9 +187,7 @@
     "category": "Internship and semester projects",
     "date": "2021-02-03",
     "description": [
-      "Le but principal est de créer un générateur de jeux 3D. Ce gé nérateur devra récupérer un modèle 3D (ex : sculpture) et transformer ce modèle en un puzzle 3D qu’un utilisateur devra reconstruire.",
-      "Le projet réalisé permet de découper un modèle 3D en différentes pièces et de le résoudre. Il existe une version PC et une application Android de ce projet.",
-      "Dans le futur, un feature en Réalitée Augmentée sera implémenté."
+      "Ce projet transforme des modèles 3D, notamment des sculptures, en puzzles à reconstruire. Le générateur découpe une œuvre en plusieurs pièces et permet à l’utilisateur de la réassembler dans un jeu. Une version PC et une application Android ont été réalisées. L’ajout de la réalité augmentée est envisagé comme prolongement pour enrichir l’expérience interactive autour des œuvres."
     ],
     "students": [
       "Jonathan Dias Vicente"
@@ -261,7 +208,7 @@
     "category": "Internship and semester projects",
     "date": "2021-02-03",
     "description": [
-      "Le but de ce projet est d’extraire le squelette pour analyser les mouvements de la danseuse. Deux vidéos de la performance seront fournies : la vue de face et de l’ombre. Le but de ce projet sera d’extraire et d'afficher le squelette sur les vidéos fournies. Il sera ensuite possible d’utiliser les données du squelette afin d’analyser les mouvements et ainsi identifier les émotions transmises."
+      "Ce projet vise à extraire et afficher le squelette d’une danseuse à partir de vidéos de sa performance. Deux points de vue sont disponibles : une vue de face et une vue de l’ombre. Les données obtenues doivent permettre d’analyser les mouvements et servir de base à l’étude des émotions transmises par la danse."
     ],
     "students": [
       "Dylan Mamié",
@@ -283,8 +230,7 @@
     "category": "Internship and semester projects",
     "date": "2021-01-31",
     "description": [
-      "Le but de ce projet de semestre 5 est de développer une plateforme pour traiter et analyser des images qui représentent des tissus pulmonaires potentiellement endommagés après un impact du réseau vasculaire. Les tissus sont colorés et scannés par un numériseur de lame de microscope. Actuellement, une personne détermine manuellement si le tissu est sain ou non, ce qui engendre une hétérogénéité importante dans l’analyse des résultats. La problématique principale réside dans la détection et quantification de zone malade détectable par différentes colorations. Les zones malades peuvent être difficile à percevoir rendant l’analyse non-automatisé difficile. Ensuite les images sont transférées par le scanner.",
-      "L’état du tissu est déterminé sur la base de 3 images en parallèle. Les images ont toujours le même cadrage mais on n’a pas de modèles tout fait d’un tissus. En effet, les tissus ne sont pas toujours positionnés de la même manière sur toute les images, ce qui nous empêche de suivre un modèle pour exclure des zones qui ne sont pas intéressantes à analyser."
+      "Cette plateforme vise à assister l’analyse d’images de tissus pulmonaires potentiellement endommagés. Elle s’appuie sur plusieurs images de lames colorées pour détecter et quantifier les zones malades, actuellement évaluées manuellement. Le projet doit tenir compte du positionnement variable des tissus et de la difficulté à distinguer certaines lésions, afin de réduire l’hétérogénéité de l’analyse."
     ],
     "students": [
       "Mathieu Lamon"
@@ -307,7 +253,7 @@
     "category": "Internship and semester projects",
     "date": "2021-01-31",
     "description": [
-      "Ce projet a été réalisé en collaboration avec l’institut HumanTech, mandaté par la clinique de la Source de Lausanne. Dans notre société actuelle, le problème de l’obésité est un problème qui prend de plus en plus d’ampleur. En effet, rien qu’en Suisse, plus de 40% de la population est en surpoids et 11% de celle-ci est en situation d’obésité1. De ce fait, le nombre de personnes potentielles concernées par une opération de l’estomac (bypass ou sleeve), suit une courbe croissante. En 2016, le nombre d’opérations contre l’obésité effectuées annuellement en Suisse a été supérieur à 50002. Une fois l’opération effectuée, les patients ont besoin d’un suivi post-opératoire à vie. Ce suivi devient plus léger avec les années mais il est nécessaire. Actuellement, dans la plupart des structures médicales (ex : HUG, CHUV, Cliniques privées), le suivi post-opératoire n’est pas synchronisé entre les différents département (ex : infirmier, diététicienne, etc). C’est pour tenter de pallier ce problème que nous voulons développer cette plateforme de suivi bariatrique."
+      "Réalisé avec HumanTech pour la clinique de la Source à Lausanne, ce projet vise à améliorer le suivi après une chirurgie bariatrique. Les patients ont besoin d’un accompagnement à vie impliquant plusieurs professionnels de santé. La plateforme proposée cherche à mieux coordonner ce suivi entre les différents services et à répondre au manque de synchronisation des pratiques existantes."
     ],
     "students": [
       "Léonard Nikita Noth"
@@ -328,7 +274,7 @@
     "category": "Internship and semester projects",
     "date": "2020-08-31",
     "description": [
-      "This project is an attempt to recreate human motion as captured by Xsens MTw Awinda sensors. To this end, Unity software will be used. The recreated video will then be used by experts to study the emotions of the user. This work and future works could be used to create highly accurate videos and make important inferences about human emotions, and the way they manifest themselves through movement."
+      "This project uses Xsens MTw Awinda sensors and Unity to recreate captured human movement. The resulting visualizations are intended to help experts study how emotions appear through bodily motion. By connecting motion-capture data with a virtual representation, the work provides a basis for further analysis of movement and for developing more accurate recordings of emotionally expressive behavior."
     ],
     "students": [
       "Mohamed Mokalled"
@@ -348,11 +294,7 @@
     "category": "Bachelor Thesis",
     "date": "2020-08-31",
     "description": [
-      "La société Deeplink est une startup d’intelligence artificielle spécialisée dans la technologie \"chatbot\". Cette entreprise utilise beaucoup le NLU (Natural Language Understanding) pour déterminer l’intention de l’utilisateur lorsqu’il communique avec le \"chatbot\". Actuellement la solution NLU est hébergée sur un serveur dédié et les échanges entre celle-ci et le client se font par requêtes http.",
-      "L’idée de ce projet consiste à faire tourner directement la solution NLU sur le navigateur du client. Avec une idée pareille, on assure qu’aucune requête contenant des données sensibles ne soit envoyée vers un serveur externe puisque l’inférence du modèle se fait sur le navigateur. En plus d’assurer une confidentialité bien plus sécurisée, si on déplace l’inférence du modèle on devrait obtenir de meilleure performance en termes de latence, d’extensibilité et on pourrait dans le futur développer des modèles personnaliser pour chaque personne.",
-      "Le premier défi de ce projet est l’analyse des systèmes et des outils existants qui vont permettre de déplacer l’inférence du modèle on edge. Il existe beaucoup de librairie Javascript qui permette de réaliser des tâches de machine learning. Il faut analyser lesquelles permettent de charger des modèles qui vont effectuer de la classification de texte. Trois modèles ont été retenus : ULMFiT de fastai, DistilBert de Huggin Face et Universal Sentence Encoder de Tensorflowjs. Ce sont ces modèles qui seront chargés sur le navigateur du client. Attention, seule l’inférence du modèle est réalisée sur le navigateur par l’entraînement de celui-ci.",
-      "Une fois les recherches terminées, le gros travail du projet peut commencer : la réalisation d’un prototype permettant de faire tourner l’inférence d’un modèle sur le navigateur. Ce deuxième défi débute avec l’entraînement des modèles sur un dataset fourni par Deeplink. Les modèles entraînés doivent être capable de déterminer l’intention d’un texte parmi 28 intentions définies. Une fois les modèles entraînés, on arrive à l’étape délicate qui est l’exportation des modèles. C’est ici que les problèmes ont commencé. Finalement sur les trois prototypes prévus, j’ai dû abandonner les prototypes avec ULMFiT et DistilBert pour des problèmes de conversion de modèle et d’opérateurs non supportés par les librairies Javascript.",
-      "Le dernier défi du projet est l’évaluation de la solution trouvée. Puisque seul un prototype a abouti, il est impossible de faire une comparaison. Cependant, après avoir comparé les modèles sur les données de Deeplink, le modèle Universal Sentence Encoder est le moins performant mais il obtient tout de même une précision supérieure à 80%. La solution trouvée utilise ce modèle et obtient de bons résultats. Cependant le gros point négatif de cette solution est le temps d’inférence du modèle. Sur 20 phrases, le modèle met en moyenne 3,2 secondes à répondre à l’utilisateur. C’est un très gros défaut pour un chatbot qui se doit d’être réactif pour garder l’attention de son interlocuteur. L’idée de déplacer l’inférence sur le navigateur comporte de très bons arguments cependant les résultats ne sont pas à la hauteur."
+      "Ce projet, réalisé avec Deeplink, étudie l’exécution d’un modèle de compréhension du langage directement dans le navigateur. L’objectif est d’éviter l’envoi de messages sensibles vers un serveur externe, tout en explorant les gains possibles de latence et d’évolutivité. Le travail analyse les outils permettant de déplacer l’inférence au plus près de l’utilisateur pour les applications de chatbot."
     ],
     "students": [
       "Nicolas Crausaz"
@@ -374,7 +316,7 @@
     "category": "Internship and semester projects",
     "date": "2020-08-31",
     "description": [
-      "The aim of this project is to build a web-based application in order to manage Human Resources systems in collaboration with the HumanTech Institute. The frameworks used are Node.js for back-end and Vue.js for front-end. Concerning the database, we’ve used MongoDB to benefit from its scalability and ability to treat a high volume of data as well as avoid the complex joins of standard relational databases."
+      "This project develops a web application for human resources management in collaboration with the HumanTech Institute. It uses Node.js for the back end, Vue.js for the interface, and MongoDB for data storage. The database choice is motivated by scalability and the ability to handle substantial data volumes while avoiding complex joins associated with conventional relational database designs."
     ],
     "students": [
       "Melissa Hussein"
@@ -394,7 +336,7 @@
     "category": "Internship and semester projects",
     "date": "2020-08-31",
     "description": [
-      "Chatbots offering therapy has many advantages, both in terms of cost and accessibility. Besides chatbots, music is a daily activity that has many impacts on our emotions. It can change them and improve them. Chatbots used for therapeutic purposes has already proven to be effective in psychology. It also has long used music in therapy. It is, therefore, on these bases that we designed Bobby our chatbot offering music therapy. The dialogue follows a therapy procedure consisting of three phases: exploration, insight, and action. Bobby asks questions about the mood, the emotional state to define the person's present emotion about a specific event. The music is proposed according to the person's music taste, emotional state, and whether they want to change it or strengthen it. Fourteen participants tested the chatbot. No statistical analysis is done yet, but the preliminary result shows a positive effect on the strengthening group."
+      "Bobby is a musicotherapy chatbot that explores a user’s mood and proposes music according to taste, emotional state, and whether the user wants to change or reinforce that state. Its dialogue follows exploration, insight, and action phases. Fourteen participants tested the system; preliminary observations were encouraging for emotional reinforcement, but statistical analysis had not yet been completed in the source report."
     ],
     "students": [
       "Cécile Grand"
@@ -414,8 +356,7 @@
     "category": "Internship and semester projects",
     "date": "2020-08-31",
     "description": [
-      "Le but de ce projet est de réaliser une application mêlant art et jeu. Un artiste aura la possibilité d’envoyer à l’application une image de son oeuvre et de choisir les paramètres du jeu qui sera généré avec la photo.",
-      "Grâce à la \"Gamification\" de l’art, il est possible de toucher un plus grand public ainsi que de sensibiliser les plus jeunes aux éléments culturels."
+      "Ce projet propose une application qui transforme les images d’œuvres d’art en jeux personnalisables. L’artiste peut transmettre une photo et choisir les paramètres du jeu généré. En associant création artistique et gamification, le travail cherche à élargir le public des œuvres et à sensibiliser les plus jeunes à des contenus culturels à travers une expérience interactive."
     ],
     "students": [
       "Kevin Pantillon"
@@ -436,17 +377,7 @@
     "category": "Internship and semester projects",
     "date": "2020-07-31",
     "description": [
-      "In this project, we will need to express emotion through dance. The performer will be asked to perform a 30-45 seconds dance expressing an emotion. The same emotion will be expressed in multiple ways (6 different times if possible).",
-      "There exist 6 basic different emotions, happiness, sadness, fear, disgust, anger, and surprise. The artist will be asked to improvise through their dance and the way they express these basic emotions.",
-      "In the end, a dance expressing all the emotions will be performed for future analysis.",
-      "The performance will be filmed with cameras from different angles.",
-      "A white sheet with a light beam hitting on it will be used to film the performance of the shadow of the performer.",
-      "BONHEUR : Enchantement – Satisfaction – Joie – Extase – Sérénité – Gaité",
-      "TRISTESSE : Douleur – Chagrin – Mélancolie – Nostalgie – Désespoir – Frustration",
-      "PEUR : Frisson – Terreur – Affolement – Ridicule – Panique – Menace",
-      "DÉGOÛT : Appétit – Démoralisation – Horreur – Nausée – Lassitude – Phobie",
-      "COLÈRE : Déchaînement – Violence – Rage – Haine – Impatience – Agressivité",
-      "SURPRISE : Stupéfaction – Ébahissement – Plaisir – Déconcerté – Étonné – Émerveillement"
+      "This project records dance performances expressing six basic emotions: happiness, sadness, fear, disgust, anger, and surprise. The performer is asked to represent each emotion in several ways through short improvised sequences. Cameras capture multiple angles, including a shadow projected onto a sheet, creating material for later analysis of how movement conveys emotion and how these representations vary across performances."
     ],
     "students": [
       "Julie Pantillon"
@@ -467,7 +398,7 @@
     "category": "Master thesis",
     "date": "2020-06-30",
     "description": [
-      "Recent years show the increasing popularity of conversational agents, so-called chatbots. Thereby, chatbots are finding more and more application in customer, and health services, as daily companions, or as digital coaches. Generating responses for such emotionally charged conversations is challenging and requires handling with empathy. Therefore, the latest efforts aim to make chatbots more empathic. In this work, we use advancements in the field of natural language processing to create a dialogue system that can generate convincingly human and empathic responses to text-based messages. We use different techniques to improve the system’s ability to converse with empathy. For that purpose, we train the language model on empathic conversations, inject additional emotional information in the response generation, or select responses based on how they make the user feel. We create three chatbots; one benchmark bot and two chatbots applying different empathy enhancements. Additionally, we implement an emotion classifier that allows predicting the emotional state of text-based messages with impressive evaluation results. We compare and evaluate the three chatbots in two quantitative and four qualitative studies with human judges. Our evaluation shows that we can double the performance of the emotion classifier using under-sampling techniques. We further report that the empathic chatbots outperform the benchmark bot and even the human-generated responses in terms of perceived empathy. Additionally, we achieve state-of-the-art results in terms of response quality using transformer-based language models. We conclude that our proposed dialogue system is as good as humans in conversing with empathy in text-based conversations."
+      "This project develops and compares conversational agents designed to generate empathic responses to text messages. It combines transformer-based language models, emotional information, and response selection with an emotion classifier. Human evaluations compare a benchmark chatbot with two enhanced variants, reporting stronger perceived empathy for the enhanced systems and exploring the relationship between response quality and emotional understanding."
     ],
     "students": [
       "Timo Spring"
@@ -488,12 +419,7 @@
     "category": "Master thesis",
     "date": "2020-05-31",
     "description": [
-      "JavaScript is a common attack vector to probe for known vulnerabilities in web browsers in order to select a fitting exploit and redirect the internet traffic to an infected web server and inject the payload in the victim’s machine. The JavaScript files used in such attacks are often obfuscated to make them hard to detect using signature-based approaches which are found in all web browsers.",
-      "On the other hand, since the only legitimate reason to obfuscate a script is to protect intellectual property, there are not many scripts that are both benign and obfuscated. Code obfuscation was introduced as a viable technique to prevent reverse engineering of software applications, it was intended to protect an application's key algorithms and data structures from theft by hackers or even competitors since it is used to hinder both manual and automated analysis from detecting malicious scripts. Code minification and code obfuscation may hide the behavior of a script... However, malware authors use the same techniques to create malware or insert malicious logic into a legitimate application, so developing a detector that can reliably detect malicious obfuscated JavaScript files would, therefore, be a valuable tool in fighting JavaScript-based attacks.",
-      "This project proposes an analysis system to detect obfuscated malicious JavaScript files found on websites, mainly the scripts used in exploit kits to probe for a web browser’s vulnerabilities. The main goals of this project are to distinguish obfuscated from not-obfuscated JavaScript files and predict whether the obfuscated scripts are benign or malicious.",
-      "In order to make very accurate predictions, we will be developing multiple Deep Learning models, some of which will need a manual feature selection; so a descriptive set of features needs to be selected and a resourceful dataset that will make the Deep Learning model’s job a lot easier in detecting obfuscated malware, and other models will handle the feature extraction on their own.. Therefore, multiple features combined from previous studies and research done on this topic will be chosen (number of words in the script, number of peculiar characters e.g. /, %...and their occurrence compared to the file’s total number of characters) in addition to the features that have been extracted from further personal research (special JavaScript keywords e.g. eval, and some obfuscator specific patterns e.g. (p, a,c,k,e,d)).",
-      "For the dataset, Alexa’s top 5000 websites were crawled, and the JavaScript files were collected for previous research to train a Machine Learning model. Those scripts are considered benign and not obfuscated, so they will still need to be obfuscated. And for the malicious scripts, a repo was created by Web developers to insert malicious JavaScript files for analysis and are also not obfuscated.",
-      "The core of our study is a highly accurate (90%) neural network-based classifier that needs to be trained to identify whether obfuscation has been applied and whether that script is malicious."
+      "This project explores deep-learning methods for identifying obfuscated JavaScript and distinguishing malicious scripts from benign ones. It investigates datasets, manually selected features, and models that learn features automatically. The goal is to support detection of browser-based attacks whose code obfuscation can make conventional signature-based analysis difficult, while separating malicious behavior from legitimate code-protection practices."
     ],
     "students": [
       "Maroun Antoun"
@@ -513,9 +439,7 @@
     "category": "Internship and semester projects",
     "date": "2020-05-15",
     "description": [
-      "Multilingual Appointment Chatbot is a project in collaboration with a Swiss startup called Deeplink specialized in chatbot technologies. For one of their customers, Deeplink requires a chatbot being able to detect if there is a time and a date in a text message sent by a human to the bot and to respond with a proper answer. This chatbot will be used in order to take appointment with customers.",
-      "The goal of the project is to compare several popular Natural Language Processing al- gorithms with text in French translated by a translation service. After testing those algorithms, a scoreboard will be made with specific criteria to find the best viable solu- tion.",
-      "After that, it is planned to create a Telegram bot in order to interact with the com- pany schedule and the customer."
+      "Developed with chatbot startup Deeplink, this project investigates multilingual detection of dates and times in appointment requests. It compares natural language processing approaches using French text processed through a translation service, with criteria for selecting a suitable solution. A Telegram chatbot is planned to connect customer messages with scheduling functionality and respond appropriately to appointment requests."
     ],
     "students": [
       "Luke Perrottet"
@@ -535,18 +459,7 @@
     "category": "Internship and semester projects",
     "date": "2020-05-15",
     "description": [
-      "Nombreux sont les bots qui lorsqu’ils ne comprennent pas l’utilisateur (la phrase, l’intention) répondent par la phrase bateau “Could you rephrase, I don’t understand”. Cela peut vite deve- nir ennuyant pour l’utilisateur.",
-      "C’est là qu’intervient l’idée folle du projet Movie Dialog Bot. Afin de garder l’utilisateur captivé, le bot doit lui répondre par un message divertissant. L’idée est justement d’afficher à l’utilisa- teur une célèbre citation de film avec en plus, les informations concernant l’acteur, le caractère et le nom du film. La citation n’est pas affichée au hasard ! C’est à l’aide du machine learning qu’on va définir la meilleure citation à afficher en fonction de la phrase envoyée par l’utilisateur.",
-      "Pour comprendre plus facilement de quoi on parle, voici un exemple illustrant mes propos.",
-      "User : What do you do?",
-      "bot (scripted) : We are a company selling beauty products",
-      "User : Oh nice ! I feel that I would need such kind of stuff.",
-      "bot (generated answer) : I do like it. You look beautiful.",
-      "bot : PS : This is what Richard Gere answered in Pretty Woman. I’m outside my comfort zone so I’m choosing the best quote I could from my favourite movies to answer your question.",
-      "Le premier défi de ce projet est de préparer un dataset contenant des citations connues en anglais. Il nous faut pour chaque citation le nom de l’acteur, le nom du caractère et le film dans lequel la citation a été utilisée. De plus, on a besoin de la phrase précédant la citation dans le script. C’est essentiel car l’algorithme va chercher quelle phrase précédant la citation à le plus de similitude avec la phrase envoyée par l’utilisateur pour ensuite lui afficher la citation.",
-      "Mais comment à l’aide du machine learning, déterminer la meilleure citation ? C’est justement le deuxième défi de ce projet. Un modèle documenté qui détermine la meilleure citation de film. C’est le modèle ULMFiT de fastai qui est utilisé pour ce projet. Il utilise le dataset qui est préparé préalablement.",
-      "Concernant le troisième défi du projet, c’est la mise en place d’un bot Telegram . En utili- sant l’inférence du modèle, le bot sera capable de répondre à la phrase de l’utilisateur par la meilleure citation.",
-      "La mise en production de ce bot, nous a permis de déterminer une chose très importante. L’idée n’est pas si folle et elle plaît aux utilisateurs."
+      "Ce projet cherche à remplacer les réponses génériques d’incompréhension d’un chatbot par des citations de films pertinentes. Un jeu de données associe chaque citation à son contexte, son personnage et son acteur. Le modèle ULMFiT de fastai sert à sélectionner une réponse adaptée au message reçu, avec une intégration Telegram destinée à rendre les échanges plus divertissants."
     ],
     "students": [
       "Nicolas Crausaz"
@@ -566,10 +479,7 @@
     "category": "Master thesis",
     "date": "2019-09-30",
     "description": [
-      "Dans la société d'aujourd'hui, les gens s'efforcent de réussir, d'être en bonne santé, sociables et heureux, ce qui entraîne une augmentation remarquable du stress. Certains travaux ont montré que le stress peut entraîner de graves dommages sur la santé et peut se représenter sous forme d’états désagréables tels que la frustration, la colère, la peur, l'inquiétude et l'anxiété.",
-      "Les réactions aux événements stressants dépendent de la perception personnelle de l'événement qui se produit. La plupart des gens s'habituent au stress et s'y adaptent en négligeant des symptômes tels que les symptômes physiques, cognitifs, comportementaux et émotionnels.",
-      "Les émotions se manifestent sous forme de variations dans les expressions faciales (tristesse, dégoût, colère, peur, mépris, surprise et bonheur), la voix, et la posture physique. Ainsi, dans l'émotion générée, une séquence de changements subtils involontaires se produit très rapidement et est indétectable par l'œil humain. Cette séquence est appelée micro-expression.",
-      "Par conséquent, l'objectif du projet est de détecter les émotions induites par le stress à travers les micro-expressions révélées par le visage humain, dans le but de réduire le stress dans la vie quotidienne. Ce projet suggère donc une analyse de l'état émotionnel, en utilisant l'avancement fulgurant de l'intelligence artificielle. De plus, le machine learning est utilisé pour classifier et prédire les émotions. Par ailleurs, cette étude développe un logiciel informatique capable de réagir en fonction de l'état affectif de l'utilisateur et de prendre des décisions intelligentes basées sur des indices non verbaux."
+      "Ce projet explore la détection d’émotions liées au stress à partir des micro-expressions faciales. Il utilise l’apprentissage automatique pour classifier ces changements subtils et analyser l’état affectif de l’utilisateur. L’objectif est de développer un logiciel capable de réagir à des indices non verbaux et d’examiner comment cette reconnaissance pourrait contribuer à la réduction du stress au quotidien."
     ],
     "students": [
       "Wendy Mikhael El Murr"
@@ -589,7 +499,7 @@
     "category": "Internship and semester projects",
     "date": "2019-08-31",
     "description": [
-      "Emotion detection and recognition is a process of detecting a human emotional state as a response to a specific stimulus. With the use of machine learning algorithms, a machine can be trained to detect the facial changes of a person through some features given to the machine as an input. In this project, emotion recognition is based on thermal imaging rather than visible images. The process begins with facial region extraction done using the KNN algorithm, then the region of interest extraction which is based on geometrical analysis, lastly, the average color of each region is calculated and inputted to the classifier which is a support vector machine with a linear kernel. An accuracy of 87.8% was achieved with this proposed procedure for two emotions, neutral and happy."
+      "This project investigates emotion recognition from facial thermal images rather than conventional photographs. It combines facial-region extraction, geometrical selection of regions of interest, and a linear support vector machine classifier. The proposed procedure achieved 87.8% accuracy for distinguishing neutral and happy expressions, offering a focused exploration of thermal imaging as an input for affective computing."
     ],
     "students": [
       "Joseph Jabbour"
@@ -609,10 +519,7 @@
     "category": "Internship and semester projects",
     "date": "2019-08-30",
     "description": [
-      "Les Phéniciens, originaires de Phénicie, approximativement le Liban actuel, sont des peuples anciens reconnus pour avoir inventé le prototype de tous les alphabets du monde : l'alphabet phénicien.",
-      "Hafis Bertschinger, un artiste suisse d’origine libanaise, exprime un profond intérêt à l’histoire du Liban à travers ses oeuvres, dont plus particulièrement, à travers une sculpture représentant l’alphabet phénicien.",
-      "Ce projet, en collabaration avec Monsieur Hafis Bertschinger, étant l’extension du projet Alphabet phénicien en réalité augmentée , implémente la réalité virtuelle où l'utilisation d'un casque spécial immerge l’utilisateur dans un musée virtuel représentant la Phénicie. Ainsi, une application développée durant ce projet convertit les oeuvres d’art de Monsieur Hafis Bertschinger dans un environnement différent, la réalité virtuelle, afin de diffuser son art à travers le monde, plus particulièrement dans son pays natal, le Liban.",
-      "S'agissant d'un nouveau concept dans le domaine de la réalité virtuelle, le musée virutel a un potentiel illimité. Par conséquent, de nombreuses nouvelles idées peuvent être introduites dans l’application: des vidéos holographiques pour divertir et éduquer les utilisateurs, une exposition d'un plus grand nombre et de divers types de sculptures de différentes tailles, etc. De plus, l'application pourrait être améliorée de manière à ce que plusieurs utilisateurs puissent accéder au musée virtuel."
+      "Ce projet prolonge une application de réalité augmentée autour des œuvres de Hafis Bertschinger par un musée virtuel inspiré de la Phénicie. Un casque permet de découvrir ses sculptures dans un environnement immersif. L’objectif est de diffuser son art au-delà du lieu d’exposition, avec des prolongements possibles tels que des contenus éducatifs et des visites partagées."
     ],
     "students": [
       "Chris Lteif"
@@ -632,10 +539,7 @@
     "category": "Internship and semester projects",
     "date": "2019-08-30",
     "description": [
-      "La détection des émotions commença avec les études de Darwin sur l’analyse des traits du visage. Aujourd’hui, les émotions peuvent être détectées par les machines.",
-      "Une micro-expression faciale, une caractéristique du language corporel, ou même la voix d’une personne, peuvent cacher des émotions. La détection et la lecture de ces émotions cachées sont cruciales dans les domaines de la psychologie et des neurosciences. Grâce à la technologie et aux progrès des caméras, du traitement de l’image et de l’apprentissage automatique, les machines sont aujourd’hui capables de détecter les émotions cachées. Cependant, la plupart des systèmes en mesure de détecter les émotions cachées, sont basés sur la reconnaissance vocale et l’expression faciale, et non sur le langage corporel offrant un complément important à la précision de la détection.",
-      "Le but de ce projet est donc de mettre en place un système capable de détecter le langage du haut du corps, afin de détecter et de reconnaître les émotions cachées. Ce système est apte à détecter le language corporel en examinant la posture squeletique d’un individu, et ainsi, en extrait les caractéristiques du langage corporel, afin de détecter les émotions de l’individu cachées dans les caractéristiques de son langage corporel.",
-      "Le système construit dans ce projet est capable de détecter les émotions cachées de six corps différents en même temps et en temps réel. Toutefois, quelques améliorations, comme la reconnaissance des gestes, peuvent être apportées. De plus, afin d’élaborer un système de détection parfait, la fusion de ce système avec une application de reconnaissance faciale et vocale est nécessaire."
+      "Ce projet développe une détection d’émotions à partir du langage du haut du corps, en complément des approches fondées sur le visage ou la voix. Le système analyse la posture squelettique et les caractéristiques corporelles de plusieurs personnes en temps réel. Des améliorations restent envisagées, notamment la reconnaissance de gestes et la combinaison avec d’autres modalités pour enrichir l’analyse."
     ],
     "students": [],
     "supervisors": [
@@ -653,11 +557,7 @@
     "category": "Internship and semester projects",
     "date": "2019-08-30",
     "description": [
-      "Les Phéniciens, originaires de Phénicie, approximativement le Liban actuel, sont des peuples anciens reconnus pour avoir inventé le prototype de tous les alphabets du monde: l'alphabet phénicien.",
-      "Hafis Bertschinger, un artiste suisse d’origine libanaise, exprime un profond intérêt à l’histoire du Liban à travers ses oeuvres, dont plus particulièrement, à travers une sculpture représentant l’alphabet phénicien.",
-      "Ce projet, en collabaration avec Monsieur Hafis Bertschinger, fusionne l’art de cet artiste avec la technologie moderne par le biais de la réalité augmentée. De plus, les utiliseurs peuvent intéragir activement et de manière unique avec les oeuvres de Monsieur Hafis Bertschinger grâce à une application conçue spécilament pour ce projet.",
-      "L’idée de cette application est que lorsque les utilisateurs pointent leurs smartphones ou tablettes en direction de la sculpture et scannent le code QR présent sur celle-ci, différents points d’informations au sujet des Phéniciens et de leurs inventions sont affichés.",
-      "Tandis que la réalité augmentée ait été développée, de nombreuses autres technologies et idées peuvent être mises en œuvre pour améliorer l'expérience et réduire la distance entre la technologie et l'art. Dans ce contexte, la réalité virtuelle peut être implémentée, où l'utilisation d'un casque spécial peut immerger l’utilisateur dans un monde virtuel représentant la Phénicie."
+      "Cette application associe réalité augmentée et œuvres de Hafis Bertschinger autour de l’alphabet phénicien. En orientant un smartphone ou une tablette vers la sculpture et en scannant son code QR, les visiteurs accèdent à des informations sur les Phéniciens et leurs inventions. Le projet propose ainsi une découverte interactive de l’œuvre et de son contexte culturel."
     ],
     "students": [],
     "supervisors": [
@@ -675,10 +575,7 @@
     "category": "Master thesis",
     "date": "2019-05-06",
     "description": [
-      "Les problèmes de la vie quotidienne, constitués de la pression au travail, de la pression sociale et du monde trépidant en général, peuvent conduire au stress. D’un côté, un stress positif peut motiver et aider les humains à être plus productifs, alors que d’un autre côté, lorsque le stress positif devient trop conséquent, il peut se transformer en stress négatif et peut alors avoir un effet néfaste sur la santé et la longévité.",
-      "Le stress et les émotions sont étroitement liés car le stress négatif se manifeste par des émotions négatives et le stress positif par des émotions positives. De nos jours, certaines machines sont capables de comprendre leur utilisateur, par exemple elles sont capables de reconnaître que l’utilisateur est stressé, et peuvent faire preuve d’empathie, par exemple aider l’utilisateur stressé à se calmer. Ainsi, ces machines, ou autrement dit compagnons empathiques virtuels, sont un moyen de réduire le mauvais stress et d’augmenter le bon en fournissant à l’utilisateur une réponse empathique. Par conséquent, cette thèse explore les effets de la lumière et de la couleur, ou plus précisément l’effet de la lumière bleue, comme réponse empathique dans le but de réduire le stress.",
-      "Une expérience a ainsi été menée sur 17 participants afin de mesurer l’effet de la lumière bleue sur le stress. Touts ces participants ont été soumis à un test de génération de stress assisté par ordinateur. L’ordinateur ensuite a généré une réponse empathique sous forme de lumière bleue dans une première partie et sous de lumière non colorée dans une deuxième partie. En conclusion, l'expérience a montré qu'un simple ajout de lumière bleue a tendance à réduire le stress mental et a donc des effets calmants. Malgré tout, la lumière bleue semble réduire la performance des participants. Dès lors, l'utilisation de la lumière bleue dans un environnement de travail devrait être traitée avec soin, car une réduction des performances ne serait pas souhaitable, et aussi faire l'objet de recherches plus poussées car l’expérience a seulement été conduite sur 17 participants.",
-      "Les prochaines étapes de ce projet pourraient être nombreuses. Dans un premier temps, l’expérience pourrait être poursuivie à plus grande échelle et ainsi plus de données pourraient être récoltées et donc une signification statistique pourrait être obtenue. Dans un deuxième temps, l'expérience pourrait être recréée en utilisant d'autres couleurs de lumière afin de voir leurs différents effets, comme par exemple voir si l'effet d'une lumière de couleur rouge supplémentaire augmenterait les performances. Dans un troisième temps, l’automatisation à la reconnaissance du stress pour automatiser le processus empathique serait une possibilité à explorer. Ainsi, une base de données sur le stress pourrait être créée et il serait alors possible d’examiner si le stress peut être détecté de façon fiable uniquement par les expressions faciales et/ou le langage corporel."
+      "Cette étude explore la lumière bleue comme réponse empathique d’une machine pour réduire le stress. Dix-sept participants ont réalisé une tâche informatique stressante sous différentes conditions lumineuses. Les résultats suggèrent un effet calmant, accompagné d’une possible baisse de performance. Le travail souligne donc la nécessité de recherches supplémentaires avant d’envisager l’utilisation de cette approche en milieu professionnel."
     ],
     "students": [
       "Mathias Fuchs"
@@ -699,7 +596,7 @@
     "category": "Master thesis",
     "date": "2018-05-31",
     "description": [
-      "Affective computing is starting to be put into practice in multiple fields. Whether it was for psychological treatment or human-robot interaction, detecting human emotion will revolutionize technology. In order to do that, body language, voice, and facial recognition is required. This project focuses on emotion detection based on upper body language using Microsoft’s Kinect v2 for the computer’s vision, Microsoft’s gesture builder to define and recognize the gestures, and multi-output regression as a machine-learning algorithm to identify the emotion represented by the gestures, the datasets were generated using the gesture recognition system. Tests demonstrated the successful implementation of the project, it can detect the body language of up to 6 persons sitting in front of the Kinect simultaneously and in real-time. Having an outcome in real-time offers the opportunity to take action as soon as an event occurs. Despite the favorable results, there still exist areas for continued development like performance optimization and integration with a project that focuses on facial expressions and/or voice recognition."
+      "This project recognizes emotions from upper-body gestures using Microsoft Kinect v2, Gesture Builder, and multi-output regression. Datasets are generated through the gesture-recognition system to connect bodily movement with emotional states. Tests demonstrated simultaneous real-time tracking of up to six seated people, while identifying opportunities to improve performance and combine the approach with facial or voice analysis."
     ],
     "students": [
       "Fouad Hannoun"
@@ -719,12 +616,7 @@
     "category": "Internship and semester projects",
     "date": "2018-02-28",
     "description": [
-      "Le but de ce projet est de mettre en place un outil de détection automatique des émotions",
-      "humaines. Les techniques qui seront utilisées pour ce faire font partie de la recherche. Toutefois,",
-      "certaines limitations et impositions existent dès la mise en place du projet :",
-      "— Les données en entrée seront exclusivement visuelles. Elle consisteront en plusieurs jeux",
-      "d’images samplées à partir de flux vidéos.",
-      "— La reconnaissance des émotions se fera via la détection de micros-expressions."
+      "Ce projet vise à construire un outil de détection automatique des émotions humaines à partir de micro-expressions. Les données d’entrée sont exclusivement visuelles et proviennent de séquences d’images extraites de flux vidéo. Le travail explore des techniques issues de la recherche, en se concentrant sur la reconnaissance de ces mouvements faciaux brefs plutôt que sur la voix ou les signaux physiologiques."
     ],
     "students": [
       "Jean-Gérard Pont",
@@ -745,8 +637,7 @@
     "category": "Internship and semester projects",
     "date": "2017-09-01",
     "description": [
-      "A micro-expression is a brief spontaneous facial movement that reveals a genuine emotion a person tries to hide. It is uncontrollable and therefore might provide consistent evidence for lie detection. In addition, the upper limit duration of a conventional micro-expression is 500 ms. Behavior Analysis Recognition based on micro-expressions would have several applications in the national security sector by providing an automatic micro-expression recognition. Since terrorism poses a threat to peace it has become imperative for nations and citizens to become more involved in recognizing and maybe preventing terrorist attacks.",
-      "Automatic facial expression recognition has been well developed using several different algorithms and the accuracy has reached over 90%. Antagonistically, automatic micro-expression detection has just recently started and small pieces of work have been available. Pfister et al. proposed a temporal interpolation method to recognize spontaneous facial expressions whereas Wu et al. employed Gabor features for feature extraction and GentleSVM as the classifier."
+      "This project investigates automatic recognition of brief facial micro-expressions as a basis for behavioral analysis. It reviews approaches to detecting spontaneous facial movements, including temporal interpolation, Gabor features, and support vector machine classification. The work focuses on the technical challenges of recognizing subtle expressions that are harder to detect than conventional facial expressions, without treating them as definitive evidence of intent."
     ],
     "students": [
       "Alain Roukoz"
@@ -758,5 +649,86 @@
     ],
     "picture": "https://www.humantech.institute/media/Screenshot_2021-02-12_at_13.25.40.png",
     "source": "https://www.humantech.institute/projects/334"
+  },
+  {
+    "id": "joe-donzallaz-emotion-agent",
+    "title": "Agent pour la régulation des émotions et l’activation comportementale",
+    "type": "Master thesis",
+    "category": "Master thesis",
+    "date": null,
+    "students": [
+      "Joé Donzallaz"
+    ],
+    "supervisors": [
+      "Prof. Elena Mugellini",
+      "Dr. Karl Daher"
+    ],
+    "description": [
+      "Ce projet développe Lucky, un agent conversationnel destiné à soutenir la régulation des émotions et l’activation comportementale. La plateforme web permet de définir des objectifs personnels et de planifier sa journée, avec des suggestions adaptées aux actions de l’utilisateur. Une évaluation auprès de dix volontaires a obtenu un score d’utilisabilité moyen de 81, tout en identifiant des améliorations avant un usage clinique."
+    ],
+    "picture": null,
+    "source": null
+  },
+  {
+    "id": "harika-putta-empathic-agents",
+    "title": "Empathic Conversational Agents: Model, Evaluation, Comparison, and Questionnaire Adaptation",
+    "type": "Master thesis",
+    "category": "Master thesis",
+    "date": null,
+    "students": [
+      "Harika Putta"
+    ],
+    "supervisors": [
+      "Mira El Kamali",
+      "Karl Daher",
+      "Denis Lalanne",
+      "Elena Mugellini",
+      "Omar Abou Khaled"
+    ],
+    "description": [
+      "This thesis proposes an empathic conversational model that incorporates situational context into emotion detection and response generation. Studies with 20 participants examine perceived empathy and compare chatbot and voice-bot interfaces, finding no statistically significant interface difference. It also adapts an empathy questionnaire and reports pilot evidence on reliability, internal consistency, and subscale correlations, contributing to the evaluation of artificial empathy."
+    ],
+    "picture": null,
+    "source": null
+  },
+  {
+    "id": "andres-felipe-dorado-stress",
+    "title": "The Effect of Music and Light-Color on Stress in Occupational Health",
+    "type": "Master thesis",
+    "category": "Master thesis",
+    "date": null,
+    "students": [
+      "Andres Felipe Dorado Dorado"
+    ],
+    "supervisors": [
+      "Karl Daher",
+      "Denis Lalanne",
+      "Elena Mugellini",
+      "Omar Abou Khaled"
+    ],
+    "description": [
+      "This study investigates blue light, relaxing music, and their combination during stressful computer-based work. Thirty-five participants took part in an experiment monitored through heart-rate variability, electrodermal activity, and self-reported stress measures. A dedicated software tool supported the experiment and data collection. The reported findings suggest positive effects on stress, contributing to research on affective computing and occupational well-being."
+    ],
+    "picture": null,
+    "source": null
+  },
+  {
+    "id": "joe-donzallaz-food-packaging",
+    "title": "Application de collecte de données sur les emballages de succédanés de viande",
+    "type": "Bachelor thesis",
+    "category": "Bachelor Thesis",
+    "date": null,
+    "students": [
+      "Joé Donzallaz"
+    ],
+    "supervisors": [
+      "Omar Abou Khaled",
+      "Karl Daher"
+    ],
+    "description": [
+      "Ce projet développe une plateforme web pour simplifier la collecte de données sur les emballages de succédanés de viande pour l’OSAV. Les consommateurs peuvent s’informer puis scanner les codes-barres de leurs produits ou les saisir manuellement. Des tests fonctionnels continus et une simulation d’enquête auprès de quatre utilisateurs ont confirmé le fonctionnement de la plateforme tout en révélant des améliorations d’utilisabilité à prévoir."
+    ],
+    "picture": null,
+    "source": null
   }
 ]

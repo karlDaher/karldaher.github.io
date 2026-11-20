@@ -1,0 +1,83 @@
+[
+  {
+    "id": "joe-donzallaz-emotion-agent",
+    "title": "Agent pour la régulation des émotions et l’activation comportementale",
+    "type": "Master thesis",
+    "category": "Master thesis",
+    "date": null,
+    "students": [
+      "Joé Donzallaz"
+    ],
+    "supervisors": [
+      "Prof. Elena Mugellini",
+      "Dr. Karl Daher"
+    ],
+    "description": [
+      "Ce projet développe Lucky, un agent conversationnel destiné à soutenir la régulation des émotions et l’activation comportementale. La plateforme web permet de définir des objectifs personnels et de planifier sa journée, avec des suggestions adaptées aux actions de l’utilisateur. Une évaluation auprès de dix volontaires a obtenu un score d’utilisabilité moyen de 81, tout en identifiant des améliorations avant un usage clinique."
+    ],
+    "picture": null,
+    "source": null
+  },
+  {
+    "id": "harika-putta-empathic-agents",
+    "title": "Empathic Conversational Agents: Model, Evaluation, Comparison, and Questionnaire Adaptation",
+    "type": "Master thesis",
+    "category": "Master thesis",
+    "date": null,
+    "students": [
+      "Harika Putta"
+    ],
+    "supervisors": [
+      "Mira El Kamali",
+      "Karl Daher",
+      "Denis Lalanne",
+      "Elena Mugellini",
+      "Omar Abou Khaled"
+    ],
+    "description": [
+      "This thesis proposes an empathic conversational model that incorporates situational context into emotion detection and response generation. Studies with 20 participants examine perceived empathy and compare chatbot and voice-bot interfaces, finding no statistically significant interface difference. It also adapts an empathy questionnaire and reports pilot evidence on reliability, internal consistency, and subscale correlations, contributing to the evaluation of artificial empathy."
+    ],
+    "picture": null,
+    "source": null
+  },
+  {
+    "id": "andres-felipe-dorado-stress",
+    "title": "The Effect of Music and Light-Color on Stress in Occupational Health",
+    "type": "Master thesis",
+    "category": "Master thesis",
+    "date": null,
+    "students": [
+      "Andres Felipe Dorado Dorado"
+    ],
+    "supervisors": [
+      "Karl Daher",
+      "Denis Lalanne",
+      "Elena Mugellini",
+      "Omar Abou Khaled"
+    ],
+    "description": [
+      "This study investigates blue light, relaxing music, and their combination during stressful computer-based work. Thirty-five participants took part in an experiment monitored through heart-rate variability, electrodermal activity, and self-reported stress measures. A dedicated software tool supported the experiment and data collection. The reported findings suggest positive effects on stress, contributing to research on affective computing and occupational well-being."
+    ],
+    "picture": null,
+    "source": null
+  },
+  {
+    "id": "joe-donzallaz-food-packaging",
+    "title": "Application de collecte de données sur les emballages de succédanés de viande",
+    "type": "Bachelor thesis",
+    "category": "Bachelor Thesis",
+    "date": null,
+    "students": [
+      "Joé Donzallaz"
+    ],
+    "supervisors": [
+      "Omar Abou Khaled",
+      "Karl Daher"
+    ],
+    "description": [
+      "Ce projet développe une plateforme web pour simplifier la collecte de données sur les emballages de succédanés de viande pour l’OSAV. Les consommateurs peuvent s’informer puis scanner les codes-barres de leurs produits ou les saisir manuellement. Des tests fonctionnels continus et une simulation d’enquête auprès de quatre utilisateurs ont confirmé le fonctionnement de la plateforme tout en révélant des améliorations d’utilisabilité à prévoir."
+    ],
+    "picture": null,
+    "source": null
+  }
+]

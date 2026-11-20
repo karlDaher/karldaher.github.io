@@ -17,6 +17,8 @@ def person(value):
 
 def extract():
     projects = {}
+    if not list((ROOT / "downloads_students").glob("*.html")):
+        raise FileNotFoundError("No HTML source files in downloads_students; existing data left unchanged.")
     for path in sorted((ROOT / 'downloads_students').glob('*.html')):
         found = False
         for script in re.findall(r'<script[^>]*>(.*?)</script>', path.read_text(), re.S):
@@ -51,6 +53,19 @@ def extract():
 
 if __name__ == '__main__':
     projects = extract()
+    additions_path = ROOT / '_data/additional_student_projects.json'
+    if additions_path.exists():
+        known_ids = {str(p['id']) for p in projects}
+        for project in json.loads(additions_path.read_text()):
+            if str(project['id']) not in known_ids:
+                projects.append(project)
+                known_ids.add(str(project['id']))
+    summaries_path = ROOT / '_data/student_project_summaries.json'
+    if summaries_path.exists():
+        summaries = json.loads(summaries_path.read_text())
+        for project in projects:
+            if str(project['id']) in summaries:
+                project['description'] = [summaries[str(project['id'])]]
     (ROOT / '_data/student_projects.json').write_text(json.dumps(projects, ensure_ascii=False, indent=2) + '\n')
     print(f'Imported {len(projects)} unique projects.')
     for category in dict.fromkeys(GROUPS.values()):
