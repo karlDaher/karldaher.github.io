@@ -1,14 +1,38 @@
 ---
 layout: archive
-title: "Supervision"
+title: "Advised theses"
 permalink: /supervision/
 author_profile: true
 ---
-
-{% include base_path %}
-
-
-{% for post in site.supervision %}
-  {% include archive-single.html %}
+<link rel="stylesheet" href="{{ '/assets/css/supervision.css' | relative_url }}">
+<p>Student projects I have supervised or co-supervised, covering applied AI, affective computing, conversational agents, digital health, and immersive technologies.</p>
+<nav class="supervision-categories" aria-label="Project categories">
+  <a href="#master-thesis">Master thesis</a>
+  <a href="#bachelor-thesis">Bachelor Thesis</a>
+  <a href="#internship-and-semester-projects">Internship and semester projects</a>
+</nav>
+{% assign categories = "Master thesis|Bachelor Thesis|Internship and semester projects" | split: "|" %}
+{% for category in categories %}
+{% assign projects = site.data.student_projects | where: "category", category %}
+<section class="supervision-group" aria-labelledby="{{ category | slugify }}">
+<h2 id="{{ category | slugify }}">{{ category }} <small>({{ projects.size }})</small></h2>
+{% for project in projects %}
+<article class="student-project" id="student-project-{{ project.id }}">
+  {% if project.picture %}
+  <img class="student-project__image" src="{{ project.picture | escape }}" alt="Project illustration: {{ project.title | escape }}" loading="lazy" decoding="async">
+  {% endif %}
+  <div class="student-project__details">
+    <p class="student-project__type">{{ project.type | escape }}{% if project.date %} · {{ project.date | date: "%B %Y" }}{% endif %}</p>
+    <h3>{{ project.title | escape }}</h3>
+    <dl>
+      <dt>Student{% if project.students.size > 1 %}s{% endif %}</dt>
+      <dd>{% if project.students.size > 0 %}{{ project.students | join: ", " | escape }}{% else %}Not listed in the source{% endif %}</dd>
+      <dt>Supervisors</dt>
+      <dd>{% if project.supervisors.size > 0 %}{{ project.supervisors | join: ", " | escape }}{% else %}Not listed in the source{% endif %}</dd>
+    </dl>
+    {% for paragraph in project.description %}<p>{{ paragraph | escape }}</p>{% endfor %}
+  </div>
+</article>
 {% endfor %}
-
+</section>
+{% endfor %}

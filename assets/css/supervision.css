@@ -1,0 +1,15 @@
+.supervision-categories { display: flex; flex-wrap: wrap; gap: 10px; margin: 24px 0; }
+.supervision-categories a { padding: 8px 12px; border: 1px solid var(--stamp); border-radius: 2px; text-decoration: none; font-size: .8em; font-family: "IBM Plex Mono", monospace; }
+.supervision-categories a:hover { background: var(--stamp); color: white; }
+.supervision-group h2 { scroll-margin-top: 24px; }
+.supervision-group h2 small { color: var(--ink-soft); font-size: .65em; }
+.student-project { background: var(--card); border: 1px solid var(--line); margin: 24px 0; overflow: hidden; }
+.student-project__image { display: block; width: 100%; max-height: 330px; object-fit: contain; background: var(--paper); }
+.student-project__details { padding: 24px; overflow-wrap: anywhere; }
+.student-project__details h3 { margin: 0 0 18px; }
+.student-project__type { font-family: "IBM Plex Mono", monospace; font-size: .7em; color: var(--ink-soft); }
+.student-project dl { display: grid; grid-template-columns: 100px minmax(0,1fr); gap: 8px 16px; font-size: .85em; margin-bottom: 24px; }
+.student-project dt, .student-project dd { margin: 0; }
+.student-project dt { color: var(--stamp); }
+.student-project__details > p:not(.student-project__type) { font-size: .9em; line-height: 1.65; }
+@media(max-width:480px) { .student-project__details { padding: 16px; } .student-project dl { grid-template-columns: 1fr; gap: 4px; } .student-project dd { margin-bottom: 10px; } }

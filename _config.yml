@@ -123,6 +123,8 @@ include:
   - _pages
   - files
 exclude:
+  - downloads_students
+  - scripts
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
