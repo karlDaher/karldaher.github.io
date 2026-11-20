@@ -118,13 +118,10 @@ Publications from my [Google Scholar profile](https://scholar.google.com/citatio
 <p>T Spring, J Casas, <strong>K Daher</strong>, E Mugellini, OA Khaled<br><em>SwissText 2019 2458, 10</em> · 2019</p>
 </article>
 
-## Additional entries on Google Scholar
-
-The saved Scholar page does not show my name in these author lists; some lists are truncated.
 
 <article class="archive__item">
 <h3 class="archive__item-title"><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=QX-OMOoAAAAJ&amp;citation_for_view=QX-OMOoAAAAJ:ULOm3_A8WrAC">Understanding Digital Life for Healthier Digital Futures</a></h3>
-<p>R Ogden, C Schoetensack, CM Sölch, Q Meteier, MF Boente, S Chappuis, ...<br><em>Understanding Digital Life for Healthier Digital Futures</em> · 2025</p>
+<p>R Ogden, C Schoetensack, CM Sölch, Q Meteier, MF Boente, S Chappuis, <strong>K Daher</strong>, ...<br><em>Understanding Digital Life for Healthier Digital Futures</em> · 2025</p>
 </article>
 
 <article class="archive__item">
@@ -134,7 +131,7 @@ The saved Scholar page does not show my name in these author lists; some lists a
 
 <article class="archive__item">
 <h3 class="archive__item-title"><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=QX-OMOoAAAAJ&amp;citation_for_view=QX-OMOoAAAAJ:YsMSGLbcyi4C">Conversational agents for health and well-being across the life course: Protocol for an evidence map</a></h3>
-<p>MP Guerreiro, L Angelini, HR Henriques, M El Kamali, C Baixinho, ...<br><em>JMIR research protocols 10 (9), e26680</em> · 2021</p>
+<p>MP Guerreiro, L Angelini, HR Henriques, M El Kamali, C Baixinho, <strong>K Daher</strong>,...<br><em>JMIR research protocols 10 (9), e26680</em> · 2021</p>
 </article>
 
 <article class="archive__item">
