@@ -1,16 +1,16 @@
 ---
-layout: default
+layout: archive
+author_profile: true
 title: "Projects"
 permalink: /projects/
 excerpt: "Projects across AI, product development, healthcare, education, and applied research."
 ---
-<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{{ '/assets/css/projects.css' | relative_url }}">
-<main class="project-index" id="main">
+<div class="project-index">
 {% raw %}
 
 
-<header class="masthead">
+<header class="project-heading">
   <div class="wrap">
     <p class="eyebrow">Karl Daher — Project Index / est. record no. 001–{{N}}</p>
     <h1 class="title">Field notes from<br>research to product.</h1>
@@ -46,5 +46,5 @@ excerpt: "Projects across AI, product development, healthcare, education, and ap
 
 {% endraw %}
 <noscript><p class="wrap">Enable JavaScript to browse the project catalog and keyword filters.</p></noscript>
-</main>
+</div>
 <script src="{{ '/assets/js/projects.js' | relative_url }}" defer></script>

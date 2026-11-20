@@ -18,7 +18,7 @@
     background-image:
       repeating-linear-gradient(180deg, transparent, transparent 39px, rgba(0,0,0,0.028) 40px);
   }.project-index a{color:var(--stamp);}.project-index .wrap{max-width:1040px; margin:0 auto; padding:0 28px;}.project-index /* ---------- Header ---------- */
-  header.masthead{
+  header.project-heading{
     border-bottom:2px solid var(--ink);
     padding:56px 0 26px;
   }.project-index .eyebrow{
@@ -155,9 +155,15 @@
 
 .project-index { font-size: 16px; line-height: 1.5; }
 .project-index h2 { border: 0; padding: 0; }
-.project-index .masthead { margin: 0; }
+.project-index .project-heading { margin: 0; }
 .project-index .wrap { width: 100%; }
 .project-index .card-head { flex-wrap: wrap; }
 .project-index .tagset { justify-content: flex-start; }
 .project-index button:focus-visible { outline: 3px solid var(--tag); outline-offset: 3px; }
 @media(max-width:480px) { .project-index .wrap { padding: 0 16px; } .project-index .card { padding: 18px; } .project-index .field { flex-direction: column; gap: 3px; } }
+
+/* Fit the catalog inside the same archive column used by Publications. */
+.project-index .wrap { padding-left: 18px; padding-right: 18px; }
+.project-index .grid { grid-template-columns: 1fr; }
+.project-index .project-heading { padding-top: 28px; }
+.project-index .filter-rail { position: static; }
