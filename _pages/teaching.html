@@ -4,13 +4,13 @@ title: "Teaching"
 permalink: /teaching/
 author_profile: true
 ---
-
-
-{% include base_path %}
-
-
-
-
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
+<p>Since 2017, I have been involved in teaching multiple courses and have supervised over 50 student projects, including Master theses, Bachelor projects, internship projects, and internal projects.</p>
+<h2>Courses</h2>
+{% assign courses = site.teaching | where: "portfolio_entry", true | sort: "date" | reverse %}
+{% for course in courses %}
+<article class="archive__item">
+  <h3 class="archive__item-title"><a href="{{ course.url | relative_url }}">{{ course.title }}</a></h3>
+  <p><strong>{{ course.period }} · {{ course.role }} · {{ course.type }}</strong><br>{{ course.venue }}</p>
+  {{ course.content | markdownify }}
+</article>
 {% endfor %}

@@ -4,13 +4,17 @@ title: "Talks and presentations"
 permalink: /talks/
 author_profile: true
 ---
-
-{% if site.talkmap_link == true %}
-
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
-
+{% assign talks = site.talks | where: "portfolio_entry", true | sort: "date" | reverse %}
+{% assign categories = "Conference talk,Invited talk" | split: "," %}
+{% for category in categories %}
+<h2>{% if category == "Conference talk" %}Conference talks{% else %}Invited talks{% endif %}</h2>
+{% for talk in talks %}
+{% if talk.type == category %}
+<article class="archive__item">
+  <h3 class="archive__item-title"><a href="{{ talk.url | relative_url }}">{{ talk.title }}</a></h3>
+  <p>{{ talk.period }} · {{ talk.location }}{% if talk.virtual %} · Virtual{% endif %}</p>
+  {% if category == "Invited talk" %}{{ talk.content | markdownify }}{% endif %}
+</article>
 {% endif %}
-
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
+{% endfor %}
 {% endfor %}
